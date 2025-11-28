@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Blog visual placeholder 5">
+  <rect width="800" height="500" fill="#145d3c" rx="24"/>
+  <rect x="100" y="100" width="600" height="300" rx="20" fill="#1f8a5c" opacity="0.7"/>
+  <circle cx="400" cy="250" r="100" fill="#f6c85f" opacity="0.8"/>
+  <text x="50%" y="50%" fill="#fff" font-size="36" font-family="Inter, Arial, sans-serif" text-anchor="middle">Operations Excellence</text>
+</svg>
+

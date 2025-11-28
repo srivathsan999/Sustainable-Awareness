@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Blog visual placeholder 1">
+  <rect width="800" height="500" fill="#e5f5eb" rx="24"/>
+  <path d="M80 360 C180 260, 320 420, 420 320 S620 220, 720 320" stroke="#1f8a5c" stroke-width="12" fill="none"/>
+  <circle cx="620" cy="140" r="70" fill="#f6c85f" opacity="0.7"/>
+  <text x="50%" y="50%" fill="#0b2b24" font-size="36" font-family="Inter, Arial, sans-serif" text-anchor="middle">Insights for Greener Services</text>
+</svg>
+

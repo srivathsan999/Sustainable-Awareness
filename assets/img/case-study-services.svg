@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Energy facilities case study">
+  <defs>
+    <linearGradient id="caseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e5f5eb" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#f0f9f4" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="cityGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f8a5c" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#146745" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#caseGrad)" rx="24"/>
+  
+  <!-- City buildings representing 15 cities -->
+  <rect x="100" y="300" width="40" height="120" rx="4" fill="url(#cityGrad)"/>
+  <rect x="160" y="280" width="35" height="140" rx="4" fill="url(#cityGrad)"/>
+  <rect x="220" y="290" width="45" height="130" rx="4" fill="url(#cityGrad)"/>
+  <rect x="290" y="270" width="40" height="150" rx="4" fill="url(#cityGrad)"/>
+  <rect x="350" y="300" width="50" height="120" rx="4" fill="url(#cityGrad)"/>
+  <rect x="420" y="260" width="40" height="160" rx="4" fill="url(#cityGrad)"/>
+  <rect x="490" y="290" width="45" height="130" rx="4" fill="url(#cityGrad)"/>
+  <rect x="560" y="310" width="40" height="110" rx="4" fill="url(#cityGrad)"/>
+  <rect x="620" y="280" width="50" height="140" rx="4" fill="url(#cityGrad)"/>
+  <rect x="690" y="300" width="40" height="120" rx="4" fill="url(#cityGrad)"/>
+  
+  <!-- Connection lines showing network/scaling -->
+  <path d="M 120 300 Q 200 200, 280 270 Q 360 340, 440 260 Q 520 180, 600 280" stroke="#f6c85f" stroke-width="4" fill="none" opacity="0.6" stroke-linecap="round"/>
+  
+  <!-- IoT sensors/analytics representation -->
+  <circle cx="200" cy="150" r="25" fill="#1f8a5c" opacity="0.7"/>
+  <circle cx="200" cy="150" r="15" fill="#f6c85f" opacity="0.8"/>
+  <circle cx="400" cy="120" r="25" fill="#1f8a5c" opacity="0.7"/>
+  <circle cx="400" cy="120" r="15" fill="#f6c85f" opacity="0.8"/>
+  <circle cx="600" cy="140" r="25" fill="#1f8a5c" opacity="0.7"/>
+  <circle cx="600" cy="140" r="15" fill="#f6c85f" opacity="0.8"/>
+  
+  <!-- Dashboard/analytics representation -->
+  <rect x="250" y="80" width="300" height="180" rx="12" fill="#fff" opacity="0.95" stroke="#1f8a5c" stroke-width="2"/>
+  <rect x="270" y="110" width="260" height="12" rx="6" fill="#1f8a5c" opacity="0.6"/>
+  <rect x="270" y="140" width="200" height="12" rx="6" fill="#1f8a5c" opacity="0.5"/>
+  <rect x="270" y="170" width="240" height="12" rx="6" fill="#1f8a5c" opacity="0.5"/>
+  <rect x="270" y="200" width="180" height="12" rx="6" fill="#1f8a5c" opacity="0.4"/>
+  <circle cx="300" cy="240" r="20" fill="#f6c85f" opacity="0.6"/>
+  
+  <!-- Growth arrow -->
+  <path d="M 150 400 L 650 200" stroke="#1f8a5c" stroke-width="6" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <polygon points="650,200 640,190 640,210" fill="#1f8a5c" opacity="0.5"/>
+  
+  <!-- Energy/sustainability symbols -->
+  <circle cx="150" cy="200" r="30" fill="#f6c85f" opacity="0.4"/>
+  <path d="M 150 170 L 160 200 L 140 200 Z" fill="#1f8a5c" opacity="0.6"/>
+</svg>
+

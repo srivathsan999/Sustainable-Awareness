@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Blog visual placeholder 3">
+  <rect width="800" height="500" fill="#1f8a5c" rx="24"/>
+  <rect x="120" y="120" width="560" height="260" rx="24" fill="#fff" opacity="0.9"/>
+  <text x="50%" y="210" fill="#0b2b24" font-size="32" font-family="Inter, Arial, sans-serif" text-anchor="middle">Future of Eco Services</text>
+  <text x="50%" y="260" fill="#145d3c" font-size="20" font-family="Inter, Arial, sans-serif" text-anchor="middle">Placeholder illustration</text>
+</svg>
+

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Elena Flores portrait">
+  <defs>
+    <linearGradient id="skin1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdbcb4" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#e8a99a" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="hair1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a3728" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#2d1f14" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#e5f5eb" rx="200"/>
+  <!-- Face -->
+  <ellipse cx="200" cy="180" rx="90" ry="110" fill="url(#skin1)"/>
+  <!-- Hair -->
+  <path d="M 110 120 Q 120 80, 150 90 Q 180 100, 200 95 Q 220 100, 250 90 Q 280 80, 290 120 Q 285 140, 280 160 Q 200 200, 120 160 Z" fill="url(#hair1)"/>
+  <!-- Eyes -->
+  <ellipse cx="175" cy="170" rx="8" ry="12" fill="#2d1f14"/>
+  <ellipse cx="225" cy="170" rx="8" ry="12" fill="#2d1f14"/>
+  <!-- Nose -->
+  <ellipse cx="200" cy="195" rx="6" ry="10" fill="#d49585" opacity="0.5"/>
+  <!-- Mouth -->
+  <path d="M 185 215 Q 200 225, 215 215" stroke="#2d1f14" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Blouse -->
+  <path d="M 140 280 Q 200 300, 260 280 L 260 380 L 140 380 Z" fill="#1f8a5c"/>
+</svg>
+

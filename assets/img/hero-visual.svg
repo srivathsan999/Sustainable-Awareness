@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Eco-first services hero visual">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e5f5eb" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#f0f9f4" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#e5f5eb" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="planetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f8a5c" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#34A853" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#146745" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f6c85f" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#f6c85f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#heroBg)" rx="24"/>
+  
+  <!-- Central planet/Earth with sustainability focus -->
+  <circle cx="600" cy="400" r="180" fill="url(#planetGrad)" opacity="0.8"/>
+  <circle cx="600" cy="400" r="150" fill="#34A853" opacity="0.6"/>
+  <circle cx="600" cy="400" r="120" fill="#1f8a5c" opacity="0.7"/>
+  
+  <!-- Continents/global representation -->
+  <ellipse cx="550" cy="380" rx="40" ry="60" fill="#146745" opacity="0.8" transform="rotate(-20 550 380)"/>
+  <ellipse cx="650" cy="420" rx="50" ry="70" fill="#146745" opacity="0.8" transform="rotate(15 650 420)"/>
+  <ellipse cx="580" cy="450" rx="45" ry="55" fill="#146745" opacity="0.7" transform="rotate(10 580 450)"/>
+  
+  <!-- Glow effect around planet -->
+  <circle cx="600" cy="400" r="200" fill="url(#glowGrad)"/>
+  
+  <!-- Orbiting service nodes representing global reach -->
+  <circle cx="400" cy="250" r="35" fill="#fff" opacity="0.95" stroke="#1f8a5c" stroke-width="3"/>
+  <circle cx="400" cy="250" r="20" fill="#1f8a5c" opacity="0.3"/>
+  <text x="400" y="260" fill="#1f8a5c" font-size="16" font-weight="700" font-family="Arial, sans-serif" text-anchor="middle">12+</text>
+  
+  <circle cx="800" cy="250" r="35" fill="#fff" opacity="0.95" stroke="#1f8a5c" stroke-width="3"/>
+  <circle cx="800" cy="250" r="20" fill="#1f8a5c" opacity="0.3"/>
+  <text x="800" y="260" fill="#1f8a5c" font-size="16" font-weight="700" font-family="Arial, sans-serif" text-anchor="middle">30+</text>
+  
+  <circle cx="350" cy="550" r="35" fill="#fff" opacity="0.95" stroke="#1f8a5c" stroke-width="3"/>
+  <circle cx="350" cy="550" r="20" fill="#f6c85f" opacity="0.4"/>
+  <path d="M 340 545 L 350 555 L 360 545" stroke="#1f8a5c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <circle cx="850" cy="550" r="35" fill="#fff" opacity="0.95" stroke="#1f8a5c" stroke-width="3"/>
+  <circle cx="850" cy="550" r="20" fill="#f6c85f" opacity="0.4"/>
+  <path d="M 840 545 L 850 555 L 860 545" stroke="#1f8a5c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Connection lines from nodes to planet -->
+  <line x1="435" y1="265" x2="520" y2="350" stroke="#1f8a5c" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+  <line x1="765" y1="265" x2="680" y2="350" stroke="#1f8a5c" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+  <line x1="385" y1="535" x2="500" y2="450" stroke="#1f8a5c" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+  <line x1="815" y1="535" x2="700" y2="450" stroke="#1f8a5c" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+  
+  <!-- Modern service icons around the planet -->
+  <rect x="250" y="350" width="60" height="60" rx="12" fill="#fff" opacity="0.9" stroke="#1f8a5c" stroke-width="2"/>
+  <circle cx="280" cy="380" r="15" fill="#1f8a5c" opacity="0.6"/>
+  
+  <rect x="890" y="350" width="60" height="60" rx="12" fill="#fff" opacity="0.9" stroke="#1f8a5c" stroke-width="2"/>
+  <polygon points="920,360 940,380 920,400 900,380" fill="#1f8a5c" opacity="0.6"/>
+  
+  <!-- Growth/impact visualization -->
+  <path d="M 200 200 Q 300 250, 400 300 Q 500 350, 600 400 Q 700 450, 800 500 Q 900 550, 1000 600" stroke="#f6c85f" stroke-width="8" fill="none" opacity="0.7" stroke-linecap="round"/>
+  <circle cx="200" cy="200" r="12" fill="#f6c85f" opacity="0.8"/>
+  <circle cx="1000" cy="600" r="15" fill="#f6c85f" opacity="0.9"/>
+  
+  <!-- Leaf/sustainability symbols -->
+  <path d="M 150 300 Q 170 280, 190 300 Q 170 320, 150 300" fill="#1f8a5c" opacity="0.6"/>
+  <path d="M 1010 300 Q 1030 280, 1050 300 Q 1030 320, 1010 300" fill="#1f8a5c" opacity="0.6"/>
+  
+  <!-- Innovation sparkles -->
+  <circle cx="300" cy="200" r="4" fill="#f6c85f" opacity="0.8"/>
+  <circle cx="900" cy="200" r="4" fill="#f6c85f" opacity="0.8"/>
+  <circle cx="250" cy="600" r="4" fill="#f6c85f" opacity="0.8"/>
+  <circle cx="950" cy="600" r="4" fill="#f6c85f" opacity="0.8"/>
+  <circle cx="500" cy="150" r="5" fill="#f6c85f" opacity="0.7"/>
+  <circle cx="700" cy="650" r="5" fill="#f6c85f" opacity="0.7"/>
+</svg>

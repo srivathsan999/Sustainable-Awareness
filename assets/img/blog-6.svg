@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Blog visual placeholder 6">
+  <rect width="800" height="500" fill="#e5f5eb" rx="24"/>
+  <path d="M200 200 L400 150 L600 200 L500 350 L300 350 Z" fill="#1f8a5c" opacity="0.7"/>
+  <circle cx="250" cy="300" r="50" fill="#f6c85f" opacity="0.6"/>
+  <circle cx="550" cy="280" r="70" fill="#145d3c" opacity="0.5"/>
+  <text x="50%" y="50%" fill="#0b2b24" font-size="32" font-family="Inter, Arial, sans-serif" text-anchor="middle">Strategic Leadership</text>
+</svg>
+

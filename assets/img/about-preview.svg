@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Experts dedicated to resilient growth">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e5f5eb" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#f0f9f4" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="teamGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f8a5c" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#146745" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#aboutGrad)" rx="24"/>
+  
+  <!-- Large decorative circles -->
+  <circle cx="150" cy="100" r="80" fill="#1f8a5c" opacity="0.15"/>
+  <circle cx="650" cy="400" r="100" fill="#f6c85f" opacity="0.2"/>
+  
+  <!-- Team collaboration representation - connected people/experts -->
+  <circle cx="200" cy="250" r="35" fill="url(#teamGrad)"/>
+  <circle cx="350" cy="200" r="35" fill="url(#teamGrad)"/>
+  <circle cx="500" cy="250" r="35" fill="url(#teamGrad)"/>
+  <circle cx="650" cy="200" r="35" fill="url(#teamGrad)"/>
+  
+  <!-- Connection lines showing collaboration -->
+  <line x1="235" y1="250" x2="315" y2="200" stroke="#1f8a5c" stroke-width="4" opacity="0.4"/>
+  <line x1="385" y1="200" x2="465" y2="250" stroke="#1f8a5c" stroke-width="4" opacity="0.4"/>
+  <line x1="535" y1="250" x2="615" y2="200" stroke="#1f8a5c" stroke-width="4" opacity="0.4"/>
+  
+  <!-- Growth/resilience representation - upward trend -->
+  <path d="M 150 400 L 250 350 L 350 300 L 450 280 L 550 260 L 650 250" stroke="#f6c85f" stroke-width="6" fill="none" opacity="0.7" stroke-linecap="round"/>
+  <polygon points="650,250 640,240 640,260" fill="#f6c85f" opacity="0.7"/>
+  
+  <!-- Knowledge/innovation elements -->
+  <rect x="300" y="320" width="60" height="60" rx="8" fill="#1f8a5c" opacity="0.3" transform="rotate(45 330 350)"/>
+  <circle cx="500" cy="350" r="30" fill="#f6c85f" opacity="0.4"/>
+  
+  <!-- Modern design elements representing different expertise -->
+  <polygon points="250,380 280,350 310,380 280,410" fill="#1f8a5c" opacity="0.25"/>
+  <rect x="550" y="320" width="50" height="50" rx="6" fill="#146745" opacity="0.3"/>
+  
+  <!-- B-Corp certification representation -->
+  <circle cx="400" cy="380" r="25" fill="#1f8a5c" opacity="0.5"/>
+  <text x="400" y="390" fill="#fff" font-size="20" font-weight="700" font-family="Arial, sans-serif" text-anchor="middle">B</text>
+  
+  <!-- Global/ecosystem representation -->
+  <circle cx="700" cy="300" r="40" fill="#4285F4" opacity="0.3"/>
+  <circle cx="700" cy="300" r="30" fill="#34A853" opacity="0.4"/>
+  <circle cx="700" cy="300" r="20" fill="#EA4335" opacity="0.3"/>
+</svg>
+

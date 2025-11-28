@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Team member placeholder 3">
+  <rect width="400" height="400" fill="#f6c85f" rx="32"/>
+  <circle cx="200" cy="150" r="80" fill="#0b2b24"/>
+  <rect x="100" y="250" width="200" height="110" rx="25" fill="#1f8a5c"/>
+  <text x="50%" y="360" fill="#0b2b24" font-size="26" font-family="Inter, Arial, sans-serif" text-anchor="middle">Liam Stone</text>
+</svg>
+

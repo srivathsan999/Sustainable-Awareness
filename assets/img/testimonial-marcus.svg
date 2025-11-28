@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Marcus Reed portrait">
+  <defs>
+    <linearGradient id="skin2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4a574" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#b8925f" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="hair2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a1a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#e5f5eb" rx="200"/>
+  <!-- Face -->
+  <ellipse cx="200" cy="180" rx="95" ry="115" fill="url(#skin2)"/>
+  <!-- Hair -->
+  <ellipse cx="200" cy="100" rx="100" ry="60" fill="url(#hair2)"/>
+  <!-- Eyes -->
+  <ellipse cx="175" cy="170" rx="8" ry="12" fill="#1a1a1a"/>
+  <ellipse cx="225" cy="170" rx="8" ry="12" fill="#1a1a1a"/>
+  <!-- Eyebrows -->
+  <path d="M 160 155 Q 175 150, 190 155" stroke="#1a1a1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 210 155 Q 225 150, 240 155" stroke="#1a1a1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Nose -->
+  <ellipse cx="200" cy="195" rx="6" ry="10" fill="#a67d4f" opacity="0.5"/>
+  <!-- Mouth -->
+  <path d="M 185 215 Q 200 225, 215 215" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Shirt -->
+  <path d="M 140 280 Q 200 300, 260 280 L 260 380 L 140 380 Z" fill="#0b2b24"/>
+</svg>
+

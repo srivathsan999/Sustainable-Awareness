@@ -1,0 +1,205 @@
+/* Dark mode overrides for Sustainable Awareness */
+
+body.theme-dark {
+    background-color: #020817;
+    color: #e2e8f0;
+}
+
+body.theme-dark .btn-outline-primary {
+    border-color: #cbd5f5;
+    color: #cbd5f5;
+}
+
+body.theme-dark .btn-outline-primary:hover {
+    border-color: var(--sa-primary);
+    color: #fff;
+}
+
+body.theme-dark .pricing-card,
+body.theme-dark .contact-card,
+body.theme-dark .process-step {
+    background-color: rgba(15, 23, 42, 0.8);
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+body.theme-dark .site-footer {
+    background-color: #010e09;
+}
+
+body.theme-dark .site-footer h5,
+body.theme-dark .site-footer h6 {
+    color: #fff;
+}
+
+body.theme-dark .bg-light {
+    background-color: rgba(15, 23, 42, 0.4) !important;
+}
+
+body.theme-dark .bg-light h2,
+body.theme-dark .bg-light h3,
+body.theme-dark .bg-light h4,
+body.theme-dark .bg-light h5,
+body.theme-dark .bg-light h6 {
+    color: #f8fafc;
+}
+
+body.theme-dark .bg-light p {
+    color: #cbd5e1;
+}
+
+body.theme-dark .bg-light .text-muted {
+    color: #94a3b8 !important;
+}
+
+/* Navbar text visibility in dark mode */
+body.theme-dark .navbar-brand,
+body.theme-dark .navbar-brand span {
+    color: #f8fafc !important;
+}
+
+body.theme-dark .navbar-brand:hover,
+body.theme-dark .navbar-brand:hover span {
+    color: var(--sa-primary) !important;
+}
+
+body.theme-dark .nav-link {
+    color: #cbd5e1 !important;
+}
+
+body.theme-dark .nav-link:hover {
+    color: var(--sa-primary) !important;
+}
+
+body.theme-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.theme-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Testimonial card text visibility in dark mode */
+body.theme-dark .testimonial-card p {
+    color: #e2e8f0 !important;
+}
+
+body.theme-dark .testimonial-card strong {
+    color: #f8fafc !important;
+}
+
+body.theme-dark .testimonial-card .text-muted {
+    color: #94a3b8 !important;
+}
+
+/* Team card text visibility in dark mode */
+body.theme-dark .team-card {
+    background-color: rgba(15, 23, 42, 0.6);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.theme-dark .team-card h5 {
+    color: #f8fafc !important;
+}
+
+body.theme-dark .team-card .text-muted {
+    color: #94a3b8 !important;
+}
+
+body.theme-dark .team-card .footer-social a {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
+}
+
+body.theme-dark .team-card .footer-social a:hover {
+    background-color: var(--sa-primary);
+    color: #fff;
+}
+
+/* Pricing page comparison table in dark mode */
+body.theme-dark .table {
+    color: #e2e8f0;
+    background-color: rgba(15, 23, 42, 0.6);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.theme-dark .table thead {
+    background-color: rgba(15, 23, 42, 0.8);
+}
+
+body.theme-dark .table thead th {
+    color: #f8fafc !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    font-weight: 600;
+    background-color: rgba(15, 23, 42, 0.8) !important;
+}
+
+body.theme-dark .table tbody {
+    background-color: rgba(15, 23, 42, 0.4);
+}
+
+body.theme-dark .table tbody td {
+    color: #e2e8f0 !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    background-color: rgba(15, 23, 42, 0.4) !important;
+}
+
+body.theme-dark .table tbody tr {
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+body.theme-dark .table tbody tr:hover {
+    background-color: rgba(31, 138, 92, 0.15) !important;
+}
+
+body.theme-dark .table tbody tr:hover td {
+    background-color: rgba(31, 138, 92, 0.15) !important;
+    color: #f8fafc !important;
+}
+
+/* Pricing page FAQ accordion in dark mode */
+body.theme-dark .accordion-item {
+    background-color: rgba(15, 23, 42, 0.6);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.theme-dark .accordion-button {
+    background-color: rgba(15, 23, 42, 0.6);
+    color: #f8fafc !important;
+}
+
+body.theme-dark .accordion-button:not(.collapsed) {
+    background-color: rgba(31, 138, 92, 0.2);
+    color: #f8fafc !important;
+}
+
+body.theme-dark .accordion-button:hover {
+    background-color: rgba(31, 138, 92, 0.15);
+}
+
+body.theme-dark .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(31, 138, 92, 0.25);
+}
+
+body.theme-dark .accordion-body {
+    background-color: rgba(15, 23, 42, 0.4);
+    color: #cbd5e1;
+}
+
+/* Pricing card text in dark mode */
+body.theme-dark .pricing-card h5 {
+    color: #f8fafc !important;
+}
+
+body.theme-dark .pricing-card .text-muted {
+    color: #94a3b8 !important;
+}
+
+body.theme-dark .pricing-card h3 {
+    color: #f8fafc !important;
+}
+
+body.theme-dark .pricing-card ul li {
+    color: #cbd5e1 !important;
+}
+
+
